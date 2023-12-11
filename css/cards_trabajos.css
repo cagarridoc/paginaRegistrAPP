@@ -1,0 +1,34 @@
+body {
+    background: #44ccfc;
+    background: linear-gradient(0deg, rgba(68, 204, 252, 1) 0%, rgba(rgba(140, 209, 249, 1)) 100%);
+}
+
+.row {
+    gap: 100px;
+}
+
+.card_trabajos {
+    padding: 80px 50px;
+    gap: 100px;
+}
+
+.img_cards {
+    width: 400px;
+    border: 20px solid#44ccfc;
+}
+
+.titulo_cards {
+    color: white;
+}
+
+.desc_cards {
+    font-weight: bold;
+    color: white;
+}
+
+@media(max-width:732px){
+    .card_trabajos {
+        display: flex;
+        flex-direction: column;
+    }
+}
